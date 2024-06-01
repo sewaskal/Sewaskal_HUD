@@ -3031,7 +3031,103 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
+		"LEMONMILK_Light12"
+		{
+			"1"
+			{
+				"name"		"LEMON MILK Light"
+				"tall"		"12"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		"LEMONMILK_Light16"
+		{
+			"1"
+			{
+				"name"		"LEMON MILK Light"
+				"tall"		"16"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		"LEMONMILK_Light24"
+		{
+			"1"
+			{
+				"name"		"LEMON MILK Light"
+				"tall"		"24"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		"LEMONMILK_Light32"
+		{
+			"1"
+			{
+				"name"		"LEMON MILK Light"
+				"tall"		"32"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		"LEMONMILK_Light36"
+		{
+			"1"
+			{
+				"name"		"LEMON MILK Light"
+				"tall"		"36"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		"LEMONMILK_Light42"
+		{
+			"1"
+			{
+				"name"		"LEMON MILK Light"
+				"tall"		"42"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		"LEMONMILK_Light48"
+		{
+			"1"
+			{
+				"name"		"LEMON MILK Light"
+				"tall"		"48"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 	}
+
+	//
+	//////////////////// CUSTOM HUD FONTS ///////////////////////
+	//
+
 
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -5842,13 +5938,30 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
-		"10"		"resource/linux_fonts/DejaVuSans.ttf"
-		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
-		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-		"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
-		"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
-		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
-		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
-		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
+		"8"
+		{
+			"font"	"resource/fonts/LEMONMILK-Light.otf"
+			"name" "LEMON MILK Light"
+			
+		}
+		"9"
+		{
+			"font"	"resource/fonts/LEMONMILK-Regular.otf"
+			"name" "LEMON MILK Regular"
+		}
+		"10"
+		{
+			"font"	"resource/fonts/LEMONMILK-Bold.otf"
+			"name" "LEMON MILK Bold"
+		}
+
+										//	"10"		"resource/linux_fonts/DejaVuSans.ttf"
+										//	"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+										//	"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+										//	"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+										//	"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+										//	"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+										//	"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+										//	"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }
